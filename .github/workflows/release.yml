@@ -36,7 +36,7 @@ jobs:
           npm run build:bundle:umd
       - name: Semantic Release
         id: semantic
-        uses: cycjimmy/semantic-release-action@v2
+        uses: cycjimmy/semantic-release-action@v3
         with:
           dry_run: false
           extra_plugins: |
